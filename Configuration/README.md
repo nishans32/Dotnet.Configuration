@@ -1,6 +1,12 @@
 # Dotnet.Configuration
 
-This is a simple ASP.NET Core project to demostrate the asp.net core configuration hierarchy and fallbacks.
+This is a simple ASP.NET Core project to demostrate the asp.net core [configuration hierarchy and fallbacks](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0#json-configuration-provider).
+
+As far as I understand : 
+
+1. Variables / settings declared in appsettings.json is overridden by appsettings.development.json or appsettings.Pooduction.json.
+2. Env variables set in system environments override those set in appsettings.json / appsettings.development.json / appsettings.Pooduction.json
+3. Environment variables set in launchSettings.json override those set in the system environment
 
 # Running the project 
 
@@ -13,4 +19,5 @@ The endpoint : ```TestResult``` returns the value related to ClientSecret based 
 #  Setting the environment variable from command prompt
 
 ```setx ClientSecret__Id TestClient /M```
+
 ```setx ClientSecret__Value testclientSecretFRomEnv /M```
