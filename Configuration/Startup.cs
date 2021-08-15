@@ -1,3 +1,4 @@
+using Confuguration.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,8 @@ namespace Confuguration
             {
                 options.SwaggerDoc("configuration-api", new Microsoft.OpenApi.Models.OpenApiInfo() { Title = "IConfuration experimentation api", Version = "v1" });
             });
+            services.AddOptions();
+            services.Configure<ClientSecret>(Configuration.GetSection("ClientSecret"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
