@@ -13,4 +13,5 @@ The endpoint : ```TestResult``` returns the value related to ClientSecret based 
 #  Setting the environment variable from command prompt
 
 ```setx ClientSecret__Id TestClient /M```
+
 ```setx ClientSecret__Value testclientSecretFRomEnv /M```
