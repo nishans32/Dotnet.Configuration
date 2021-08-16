@@ -14,7 +14,7 @@ As far as I understand :
 
 All available endpoints will be listed via Swagger -> ```https:\\localhost:5001\swagger```
 
-The endpoint : ```TestResult``` returns the value related to ClientSecret based on the hierarchy.
+The endpoint : ```TestResult``` returns the value related to ClientSecret based on the configuration source hierarchy.
 
 #  Setting the environment variable from command prompt
 
