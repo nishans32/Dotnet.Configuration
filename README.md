@@ -5,7 +5,7 @@ This is a simple ASP.NET Core project to demostrate the asp.net core [configurat
 As far as I understand : 
 
 1. Variables / settings declared in appsettings.json is overridden by appsettings.development.json or appsettings.Pooduction.json.
-2. Env variables set in system environments override those set in appsettings.json / appsettings.development.json / appsettings.Pooduction.json
+2. Env variables set in ```system environment variables``` override those set in appsettings.json / appsettings.development.json / appsettings.Pooduction.json
 3. Environment variables set in launchSettings.json override those set in the system environment
 
 # Running the project 
