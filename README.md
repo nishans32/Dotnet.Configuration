@@ -1,6 +1,6 @@
 # Dotnet.Configuration
 
-This is a simple ASP.NET Core project to demostrate the asp.net core [configuration hierarchy and fallbacks](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0#json-configuration-provider).
+This is a simple ASP.NET Core project to demostrate the asp.net core [configuration hierarchy and fallbacks](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0).
 
 As far as I understand : 
 
